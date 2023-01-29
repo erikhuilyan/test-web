@@ -1,0 +1,62 @@
+/* body{
+    /* background-image: url("bg.jpg"); 
+    /* font-family: URW Chancery L, cursive;  
+} */
+.center{
+    text-align: center;
+}
+.color-red{
+    color: red;
+}
+.color-blue{
+    color: blue;
+}
+.color-white{
+    color: white;
+    font-size: 50px;
+}
+.size{
+    width: 391px;
+    height: 450px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #913636;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.color-black{
+    background-color: black;
+}
+
