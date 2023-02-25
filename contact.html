@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/2.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 </head>
@@ -20,10 +21,22 @@
         <br>
         <input type="text" placeholder="Name"><br><br>
         <input type="text" placeholder="Surname"><br><br>
-        <input type="email" placeholder="Email2"><br><br>
-        <input type="text" placeholder="Какая фирма вашего телефонна?"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="text" placeholder="Phone"><br><br>
+        <input type="text" placeholder="Land"><br><br>
+        <label for="football">В какой футбольный клуб вы хотите вступить?</label>
+        <select id="ball" name="ball">
+            <option value="Paris Saint Germany">Paris Saint Germany</option>
+            <option value="Al Nassr">Al Nassr</option>
+            <option value="FC Barcelona">FC Barcelona</option>
+            <option value="Juventus">Juventus</option>
+        </select>
+        <br><br>
+        <label for="age">Возраст: </label>
+            <input type="number" step="1" min="15" max="41" name="age"/>
+        <br><br>
         <button>Send</button>
-        <input type="submit" value="Отправить">
+        <!-- <input type="submit" value="Отправить"> -->
     </form>
 </body>
 </html>
